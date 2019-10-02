@@ -1,4 +1,4 @@
-# Testing III
+X # Testing III
 
 In this project, you will demonstrate proficiency by writing unit tests for an existing React application. Your tests should verify the behavior listed in the _Minimum Viable Product_ section.
 
@@ -8,32 +8,32 @@ Some of the topics covered were:
 - Using the `react-testing-library` testing framework.
 - Writing unit tests for React components.
 
-## Instructions
+X ## Instructions
 
-**Read these requirements carefully. Understand exactly what is expected _before_ starting.**
+X **Read these requirements carefully. Understand exactly what is expected _before_ starting.**
 
-You are allowed, and encouraged, to collaborate with your peers while working on this assignment. Remember to follow the _twenty-minute rule_ and post questions to your cohort's help channel before seeking support from your PM and Instructor.
+You are allowed, and encouraged, to collaborate with your peers while working on this assignment. Remember to follow the _twenty-minute rule_ and post questions to your cohort's help channel before seeking support from your TL and Instructor.
 
-## Commits
+X ## Commits
 
 Please push your code often and use descriptive commit messages, this helps you and your project manager.
 
-## Project Description
+X ## Project Description
 
 In this project, you will **write unit tests** for an existing React application that controls a gate and shows two LEDs that portrait the status of the gate.
 
 The requirements are listed under the _Minimum Viable Product_ section below.
 
-## Project Set Up
+X ## Project Set Up
 
 Follow these steps to setup your git _fork_ and _branch_.
 
-- [ ] Fork this repository.
-- [ ] Use GitHub's website to add your project manager as collaborator on **your fork**.
-- [ ] **Clone your forked version** of the repository (**Not Lambda's**!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Commit changes to your `<firstName-lastName>` branch.
-- [ ] Push often to your branch: `git push origin <firstName-lastName>`.
+- [X] Fork this repository.
+- [X] Use GitHub's website to add your project manager as collaborator on **your fork**.
+- [X] **Clone your forked version** of the repository (**Not Lambda's**!).
+- [X] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X] Commit changes to your `<firstName-lastName>` branch.
+- [X] Push often to your branch: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -41,7 +41,7 @@ Follow these steps for completing your project.
 - [ ] Use GitHub's website to add your project manager as a reviewer on the pull-request.
 - [ ] Your project manager will count the project as complete by merging the branch back into the master branch of your forked repository.
 
-## Minimum Viable Product
+X ## Minimum Viable Product
 
 After a set of interviews with the potential users of the solution, we gathered the following information about the desired functionality. Not all the information provided by our clients is relevant to the design of the solution, but it's included to help understand the requirements.
 
