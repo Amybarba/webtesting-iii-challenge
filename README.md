@@ -51,12 +51,12 @@ The expected/assumed behavior of the application is listed below.
 
 ### Gate
 
-- defaults to `unlocked` and `open`
-- cannot be closed or opened if it is locked
+X - defaults to `unlocked` and `open`
+X - cannot be closed or opened if it is locked
 
 ### Dashboard
 
-- shows the controls and display
+X - shows the controls and display
 
 ### Display Component
 

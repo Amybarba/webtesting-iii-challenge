@@ -1,18 +1,22 @@
 // Test away!
-// import  ??? from 'react-test-renderer';
 import React from 'react';
-import * as rtl from 'react-testing-library';
-import 'jest-dom/extend-expect';
+import { render, fireEvent, cleanup } from 'react-testing-library';
+import renderer from "react-test-renderer";
+import "react-testing-library/cleanup-after-each";
 import Controls from './Controls';
-afterEach(rtl.cleanup);
 
-describe('Controls', () => {
-    it('renders correctly', () => {
-        // it('matches snapshot', () => {
-        // const ??? = ???.create(<Controls />)
-        const controlsWrapper = rtl.render(<Controls />);
-        expect(controlsWrapper.baseElement)
-        .toMatchSnapshot();
-         // expect(tree.toJSON()).toMatchSnapshot();
+describe("<Controls />", () => {
+    it("matches snapshot", () => {
+        const testrun = renderer.create(<Controls />).toJSON();
+        expect(testrun).toMatchSnapshot();
+});
+
+    it("is testing me", () => {
+        const trial = jest.fn();
+
+        const result = trial();
+
+        expect(result).toBeUndefined();
+        expect(trial).toHaveBeenCalledTimes(1);
     });
 });
